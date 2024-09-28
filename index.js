@@ -1,14 +1,14 @@
 // Getting elements from the DOM
-const audioPlayer = document.getElementById('audio-player');
-const playBtn = document.getElementById('play-btn');
-const prevBtn = document.getElementById('prev-btn');
-const nextBtn = document.getElementById('next-btn');
-const seekSlider = document.getElementById('seek-slider');
-const currentTimeElem = document.getElementById('current-time');
-const totalTimeElem = document.getElementById('total-time');
-const volumeSlider = document.getElementById('volume-slider');
-const muteBtn = document.getElementById('mute-btn');
-const songImage = document.querySelector('.song-image');
+const audioPlayer = document.getElementsByClassName('audio-player');
+const playBtn = document.getElementByClassName('play-btn');
+const prevBtn = document.getElementByClassName('prev-btn');
+const nextBtn = document.getElementByClassName('next-btn');
+const seekSlider = document.getElementByClassName('seek-slider');
+const currentTimeElem = document.getElementByClassName('current-time');
+const totalTimeElem = document.getElementByClassName('total-time');
+const volumeSlider = document.getElementByClassName('volume-slider');
+const muteBtn = document.getElementByClassName('mute-btn');
+const songImage = document.ClassName('.song-image');
 
 // Playlist array with songs
 const playlist = [
