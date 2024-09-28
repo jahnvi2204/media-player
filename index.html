@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/90aeac9b38.js" crossorigin="anonymous"></script>
+
+    <title>Media Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                 <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img class = "song-image" src="imageofcat.jpg" alt="">
+        <div class="song-name"> LOML- Taylor Swift  </div>
+        
+        <audio id="audio-player" src="song1.mp3"></audio>
+
+        <div class="controls">
+            <input type="range" id="seek-slider" max="100" value="0">
+
+            <span id="current-time">00:00</span> / 
+            <span id="total-time">00:00</span>
+        </div>
+
+        <div class="volume-controls">
+            <button id="mute-btn"><i class="fa-solid fa-volume-high"></i></button>
+            <input type="range" id="volume-slider" max="1" step="0.1" value="1">
+        </div>
+        <div class="nav">
+            <button id="prev-btn"><i class="fa-solid fa-angles-left"></i></button>
+            <button id="play-btn"><i class="fa-solid fa-play"></i></button>
+            <button id="next-btn"><i class="fa-solid fa-angles-right"></i></button>
+        </div>
+    </div>
+        </div>
+        </div>
+    
+        
+       
+
+    </div>
+
+</body>
+</html>   
